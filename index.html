@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>La Ferme Maimel bio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- box icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/img/franceline.jpg" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <div class="click-event box">
+      <h4>Condition Générale de Valeur (CGV): nos formations en ligne sont gratuites</h4>
+      <button id="btn-1">BIENVENUE</button>
+      <button id="btn-2">Merci de vister notre portfolio </button>
+      <h5>La bonne réponse est Berne</h5>
+    </div>
+  
+    <div class="mousemove"></div>
+  
+    <div class="keypress box">
+      <h2>Vous appuyez sur la touche : <span id="key"></span></h2>
+    </div>
+
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+    
+
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        
+      </nav>
+
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+  
+    </header>
+    <form action="" class="box">
+      <input type="text" placeholder="Entrez votre nom">
+  
+      <select>
+        <option value="">Sélectionner votre langage favoris</option>
+        <option value="Javascript">Javascript</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Python">Python</option>
+      </select>
+  
+      <input type="checkbox" id="cgv">
+      <label for="cgv">Accepter les CGV</label>
+  
+      <input type="submit" value="Valider">
+      <div></div>
+    </form>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Bienvenu, je suis</h3>
+        <h1>Franceline KUELA</h1>
+        <!-- <p>
+            
+            Veuillez lire attentivement ce guide pour mieux naviguer sur le site. Cliquez sur la lune pour la lecture
+            en mode nocturne (nuit), cliquez sur les 3 barres pour voir le menu sur
+            les téléphones portables, clissez et défiler pour voir les formations
+            au niveau du portfolio Nos formations. Pour les ordinateurs et tablettes appuyer sur n'importe quel touche de votre clavier pour connaitre la puissance du moteur codé à 100% JavaScript intégré à ce site, surtout la lettre "Z" et écouter le son. Entrez votre nom et sélectionner votre langage favoris pour voir l'animation. Vous devez d'abord cochez le CGV (Condition Générale de Valeur de nos formations) avant de valider sinon il vous demandera cela toujours jusqu'à ce que vous cochez. Pour les participants qui suivent nos formations en ligne dont le lien est en dessous, voici l'utilisation concrète et la puissance de la fonction "Boucle for" en python et JavaScript. Cliquez sur ce lien pour la formation en Python, HTML, CSS, JavaScript. Merci
+
+          
+          
+        </p> -->
+        
+          
+        <div class="social-media">
+          <a href="http://www.facebook.fr"><i class="bx bxl-facebook"></i></a>
+          <a href="http://www.twitter.fr"><i class="bx bxl-twitter"></i></a>
+          <a href="http://www.instagram.com"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="http://www.linkedin.com"><i class="bx bxl-linkedin"></i></a>
+        <!-- </div>
+        <a href="./assets/cadora_g_stocks.accde" class="btn" download="cadora_g_stocks.accde">cliquez pour Télécharger logiciel CADORA G. Stocks Version 1.0</a>
+        <p><strong>Cadora G. stcoks est un logiciel de gestion développé par nos soins pour vous accompagné dans votre gestion.</strong></p>
+      </div> -->
+      <!-- <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession">
+            <i class="bx bx-code-alt"></i>
+            <h3>Comptable-Fiscaliste</h3>
+          </div>
+        </div>
+      </div> -->
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Agriculture</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-camera"></i>
+            <h3>Elevage<h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-palette"></i>
+            <h3>Pisciculture/h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-video-recording"></i>
+            <h3>Agro Sylvo Pastoral</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <img src="./assets/img/franceline.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/img/kabore 1.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">A propos de <span>Nous</span></h2>
+        <h3>Salut, ce site à été créer pour vous aider à réaliser vos projets!</h3>
+        <p>
+ 
+          <!-- <p><strong>Veuillez cliquez sur le ci-dessous pour suivre nos formations en ligne sur la création de site web avec le langage Phyton, javascript, HTML, CSS.</strong></p> -->
+          <p><strong>Veuillez cliquez sur le ci-dessous pour acheter nos produits en ligne.</strong></p>
+          <a href="https://www.localdrive.pro/lafermemaimel-bio/" target="_blank">https://www.localdrive.pro/lafermemaimel-bio/</a><br>
+          <!-- <p><strong>Veuillez cliquez sur le ci-dessous pour voir notre logiciel de gestion et comptabilité en ligne.Désormais vous aurez la possibilité de gérer vos entreprises sur vos tablettes et téléphones Android, ios et mac .</strong></p> -->
+
+
+        </p>
+        <a href="#" class="btn">read More</a>
+      </div>
+    </section>
+
+    <!-- service section design -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Mes <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <!-- <i class="bx bx-code-alt"></i>
+          <h3>Audit organisationnel, Asistance en gestion, Fiscalité, Développement de site web, Etudes et Formations</h3>
+          <p>
+            
+              Ces secteurs d’activité ont pour but d’accompagner votre entreprise dans sa création, l’élaboration du manuel de procédures administratives, financières et comptables. Le suivi de vos différentes déclarations par la mise à votre disposition des outils extra comptables automatisés sur Excel tel que : le calcul des IUTS, les cotisations sociales (CNSS), les indemnités de fin de contrat etc…
+              NB : en cas d’absence de logiciel de gestion de stock dans votre structure, un contrat d’assistance en gestion passé avec notre cabinet, vous donne droit à l’installation du dit logiciel pour permettre aux consultants de mener à bien la mission confié.
+              Pour mieux apprécier notre logiciel de gestion de stocks « CADORA G. Stocks version 1.0 » veuillez le télécharger pour le testé. Pour permettre aux utilisateurs de mieux comprendre le fonctionnement de la programmation et les bases de données, nous dispensons gratuitement des cours en ligne sur le langage Python, HTML, CSS ; JavaScript sur les bases essentiel.
+          </p> -->
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <!-- <h3>Conception de sites web</h3>
+          <p>
+            Nous vous proposons trois types de sites web: la présenation standard, le portfolio et un site e-commerce intégrant toute les fonctionnalités de notre logiciel de gestion de stocks CADORA doté de plusieurs moyens de paiement.
+          </p> -->
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Agriculture et Elevage</h3>
+          <p>
+            
+            L’agriculture va de pair avec l’élevage nous vendons des produitS issue de l’agriculture, de l’élevage mais aussi des plantes pour vos vergers.
+            Pour vous accompagner dans vos potagers familiaux et la culture hors sol, nous mettons à votre disposition des fichiers téléchargeable
+          </p>
+          
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Pisciculture</h3>
+          <p>
+            La pisciculture peut être aussi associé à l’agriculture cette méthode est appelé Aquaponie. En pisciculture hors sol, l’eau des bacs des poissons est utilisée pour produire des légumes.
+            Nous mettons à votre disposition un écloserie artificielle avec une capacité de production de 5 000 à 10 000 alevins par cycle de 30 jours.  
+          </p>
+          <!-- <h1>Qu'est-ce que l'Aquaponie</h1>
+        <p style="margin: 10px 60px 40px; font-size: 1.3rem">
+          Définition : En aquaponie les poissons sont élevés en circuit fermé, notre écloserie fait maison sous forme industrielle peut être utilisée en fonction du nombre de poissons adultes ou alevins.
+          Le père fondateur de l’aquaponie est James Macousi professeur en physique chimie, pour la première fois pour la production de la laitue (salade).
+          La réussite en pisciculture dépend essentiellement de la maitrise de la pollution de l’eau.
+          Dans notre formation, nous vous offrons toutes les techniques pour dimensionner un bio filtre pour traiter le schéma ci-dessous pour produire des légumes en hors sol avec des tables à marrer.
+          
+        </p> -->
+
+        <!-- <img height="600" src="./dom.png" alt="" /> -->
+
+        <!-- <h1 style="margin-top: 80px">AQUAPONIE</h1>
+        <h2>Dimensionner un système aquaponique</h2> -->
+
+        <!-- <img src="./BOM.svg" height="600" alt="" /> -->
+        
+
+        <!-- <h1 style="position: absolute; right: 20px; top: 20px"></h1>
+      </div>
+      <h1>NB : tant que ces techniques ne sont pas maitrisées, en 24 Heures vous trouverai toujours des poissons ventre en l’air dans vos bacs, morts par asphyxie(intoxication).
+        C’est un peu compliqué au début souvent considérable en terme de moyens financiers, mais avec un peu de courage tout en réveillant notre physique-chimie de la classe de 3ème on finit par cpmprendre les causes et prévenir selon les cas.
+        </h1> -->
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>AGRO SYLVO PASTORAL</h3>
+          <h4>AGRICULTURE-ELEVAGE-PISCICULTURE</h4>
+          <!-- <p>
+            Les documentations en fichiers  joint seront mise à jour chaque fois sur ce site pour vous accompagner  sur des bases solides dans le secteur de l’agriculture, l’élevage et la pisciculture. Nous vous suggérons de visiter régulièrement ce site pour vous former en ligne sur L’Agro Sylvo Pastoral.  
+          </p> -->
+          <h3>AGRICULTURE</h3>
+          <!-- <p><strong>Veuillez cliquer sur les liens ci-dessous pour télécharger les fiches techniques des cultures maraichères sur sol ou hors sol.</strong></p>
+          <a href="./culture Aubergine.pdf" class="btn" download="culture Aubergine.pdf">Télécharger fiche technique culture Aubergine.pdf</a><br>
+          <a href="./culture Carotte.pdf" class="btn" download="culture Carotte.pdf">Télécharger fiche technique culture Carotte.pdf</a><br>
+          <a href="./culture Chou pommé.pdf" class="btn" download="culture Chou pommé.pdf">Télécharger fiche technique culture Chou pommé.pdf</a><br>
+          <a href="./culture Concombre.pdf" class="btn" download="culture Concombre.pdf">Télécharger fiche technique culture Concombre.pdf</a><br>
+          <a href="./culture Céleri.pdf" class="btn" download="culture Céleri.pdf">Télécharger fiche technique culture Céleri.pdf</a><br>
+          <a href="./culture Gombo.pdf" class="btn" download="culture Gombo.pdf">Télécharger fiche technique culture Gombo.pdf</a><br>
+          <a href="./culture Laitue.pdf" class="btn" download="culture Laitue.pdf">Télécharger fiche technique culture Laitue.pdf</a><br>
+          <a href="./culture Melon.pdf" class="btn" download="culture Melon.pdf">Télécharger fiche technique culture Melon.pdf</a><br>
+          <a href="./culture Oignon vert .pdf" class="btn" download="culture Oignon vert .pdf">Télécharger fiche technique culture Oignon vert .pdf</a><br>
+          <a href="./culture Pastèque.pdf" class="btn" download="culture Pastèque.pdf">Télécharger fiche technique culture Pastèque.pdf</a><br>
+          <a href="./culture Piment.pdf" class="btn" download="culture Piment.pdf">Télécharger fiche technique culture Piment.pdf</a><br>
+          <a href="./culture Poivron.pdf" class="btn" download="culture Poivron.pdf">Télécharger fiche technique culture Poivron.pdf</a><br>
+          <a href="./culture TomateSHS.pdf" class="btn" download="culture TomateSHS.pdf">Télécharger fiche technique culture TomateSHS.pdf</a><br>
+          <a href="./Gombo_1.pdf" class="btn" download="Gombo_1.pdf">Télécharger fiche technique Gombo_1.pdf</a><br> -->
+          <h3>ELEVAGE</h3>
+          <!-- <p><strong>Veuillez cliquer sur les liens ci-dessous pour télécharger les fiches techniques d'elevages.</strong></p>
+          <a href="./Maladies_des_poules.pdf" class="btn" download="Maladies_des_poules">Télécharger fiche Maladies_des_poules_et_traitements</a><br>
+          <a href="./Agrodok4_l_levage_des_poule.pdf" class="btn" download="Agrodok4_l_levage_des_poule.pd">Télécharger fiche Elevage_des_poules</a><br>
+          <a href="./Chapitre_2.pdf" class="btn" download="Chapitre_2.pdf">Télécharger fiche Elevage_des_lapins</a><br>
+          <a href="./elevage_cailles.pdf" class="btn" download="elevage_cailles.pdf">Télécharger fiche Elevage_cailles</a><br>
+          <a href="./le-pigeon.pdf" class="btn" download="le-pigeon.pdf">Télécharger fiche Elevage_pigeons</a><br> -->
+          <h3>PISCICULTURE</h3>
+
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio design -->
+    <section>
+      <div class="section portfolio" id="portfolio">
+        <div class="h2 heading">Nos <span>Projets</span></div>
+      </div>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <!-- <img src="./assets/img/Econnexions 2.jpg" alt="" /> -->
+
+          <div class="portfolio-layer">
+            <!-- <h4>Logiciel de gestion de stock "CADORA"</h4>
+            <p>
+              Ecran de connexion logiciel de gestion de stocks CADORA version
+              1.0 bureau et android. Ce logiciel est utilisé en monoposte et
+              réseau avec la possibilité d'extension en Android utilisable sur
+              les téléphones smartphone. 
+            </p> -->
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <!-- <img src="./assets/img/interface 2.jpg" alt="" /> -->
+
+          <div class="portfolio-layer">
+            <!-- <h4>Interface de travail de CADORA G-stock</h4>
+            <p>
+              Interface de travail du logiciel. Entrez votre nom pour créer un
+              nouveau utilisateur, pareil pour créer un nouveau client, produit,
+              fournisseur. Cliquez sur commande client pour les ventes et bon de
+              commande pour les achats. NB : en cas d’absence de logiciel de
+              gestion de stock dans votre structure, un contrat d’assistance en
+              gestion passé avec notre cabinet, vous donne droit à
+              l’installation du dit logiciel pour permettre aux consultants de
+              mener à bien la mission confié.
+            </p> -->
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/poules et coq.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Poules et Coq</h4>
+            <p>
+              locales et métissés adultes disponible
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/poussins.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Poussins</h4>
+            <p>
+              Vendus sur commande le temps de livraison des poussins est de deux (2) semaines.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/pintade race locale.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Pindades loacaux</h4>
+            <p>
+              Les pintadeaux locaux sont disponible à partir du 25 juin 2023.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div>
+          <h1>la race locale</h1>
+          <p>les pintadeaux du Burkina Faso la commande est de 50 unités par cartons au prix de 27 500. Les pintadeaux sont disponible à partir du 25 juin 2023.</p>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/pintade abansanjo.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Pindates Abansanjo</h4>
+            <p>
+              Cette race est disponible à partir du 25 juin 2023.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div>
+          <h1>pintadeaux Abansanjo  race de luxe</h1>
+          <p>Les oeufs sont commandés dépuis la france et incubés par soins au Burkina Faso. Cette race évolue très rapidement par rapport à la race locale et  Galores. Les pintadeaux français du nom Abansanjo sont disponible à partir du 25 juin 2023 au prix de 60 000 par cartons. Nous vendons également des oeufs de cette race par plaquette.</p>
+        </div>
+        <section>
+          <div>
+            <h3>Elevage de pindades race Golore</h3>
+            <p>Les oeufs sont importés du Ghana et incubés par nos soins , cette race du grandi plus vite que la race locale du Burkina Faso. Nous vendons également des oeufs  féconds pour ceux qui veulent incubé avec leurs couveuses. Les pintadeaux du Ghana du nom Galore sont disponible à partir du 25 juin 2023 au prix de 50 000 par cartons.</p>
+          </div>
+          <!-- <div>
+            <video
+              src="./pintade jeune galore.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div> -->
+        
+          <!-- <div>
+            <h3>sortie des pintadeaux race galore le 20 juin 2023.</h3>
+          </div>
+          <div>
+            <video
+              src="./pintado galore.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div> -->
+            <!-- <div>
+              <h3>sortie des pintadeaux race Abansanjo le 20 juin 2023. </h3>
+            </div>
+            <div>
+              <video
+                src="./eclosion pintado.mp4"
+                autoplay
+                loop
+                muted
+              ></video>
+            </div> -->
+    
+        </section>
+        <div class="portfolio-box">
+          <img src="./assets/img/dindon.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Dindons</h4>
+            <p>
+              Races locales et métissés disponible              
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/cailles.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Cailles</h4>
+            <p>
+              Vendus par famille soit un(1) mal et Quatre (4) femelles 
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/oeuf de cailles.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4> Oeufs de cailles</h4>
+            <p>
+              Vendus par plaquette de 18 et 30 .
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/chevres et moutons.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Chevres et moutons</h4>
+            <p>
+              Nous disposons des chèvres de races locales et métissés.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/lapins.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Lapins</h4>
+            <p>
+              Nous disposons des races locales et métissés
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/porcs.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Porcs</h4>
+            <p>
+              Nous disposons des races locales et métissés
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/carpe.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Carpes</h4>
+            <p>
+              Les alevins sont vendus sur commande avec un délai de livraison d'un mois.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/poissons chat silure.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Poissons chat silure</h4>
+            <p>
+              Les alevins sont vendus sur commande avec un délai de livraison d'un mois.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/gombo sec.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4> Gombo sec</h4>
+            <p>
+              Disponible par plat et sac
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/petit piment local.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Petit piment local</h4>
+            <p>
+              Disponible par plat et sac
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/mais.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Mais</h4>
+            <p>
+              Disponible par plat et sac
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/plant de dattier.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Dattier</h4>
+            <p>
+              plantes  disponible
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/plant de fraises.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Fraises</h4>
+            <p>
+              plantes  disponible
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/plants d'orange.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Orange</h4>
+            <p>
+              plantes disponible
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/papaya-papaya-243241__480.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Papaye</h4>
+            <p>
+              plantes disponible
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/plan de bananes.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Bananes</h4>
+            <p>
+              plantes disponibles
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/20230401_080802.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Ecloserie artificielle</h4>
+            <p>
+              La capacité de production est entre 5 000 et 10 000 alevins par cycle de 30 jours
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/20230401_081906.jpg" alt="" />
+          <div class="portfolio-layer">
+            <!-- <h4>Formation en technique de reproduction artificielle</h4>
+            <p>
+              La formation sur les techniques de reproduction artificielle de tilapia et poissons chat africain (silures)
+            </p> -->
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/img/20230401_081316.jpg" alt="" />
+          <div class="portfolio-layer">
+            <!-- <h4>Formation en technique d'élevagede de tilapia (carpes)</h4>
+            <p>
+              La formation sur les techniques de selection et d'engarissement des carpes hors sol avec l'écloserie.
+            </p> -->
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="testimonial-container">
+      <h2 class="heading">Nos <span>Formations</span></h2>
+      <p>appuyez et clisser pour voir toute nos formations</p>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/apprendre_python.jpg" alt="" />
+              <h3>Formation sur le langage Python</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/HTML_IMG.png" alt="" />
+              <h3>Formation en HTML</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/CSS_IMG.png" alt="" />
+              <h3>Formation en CSS</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/javascript_png.png" alt="" />
+              <h3>Programmation javascript</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/microsoft-access-512.png" alt="" />
+              <h3>Base de données Access</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/xlsx-file-format64.png" alt="" />
+              <h3>Microsoft Excel avancé</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide"> -->
+              <img src="./assets/img/poules et coq.jpg" alt="" />
+              <!-- <h3>Elevage de poules</h3>
+                <p>
+                Des fichiers sont disponbles, veulliez le télécharger pour mieux gérer vos poules
+              </p>
+            </div> -->
+            <!-- <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/carp-217229__480.jpg" alt="" />
+              <h3>Pisciculture hors sol</h3>
+              <p>
+                La formation en ligne est gratuite, le niveau avancé et expert est individuel et fait l'object d'inscription sur le formulaire.
+              </p>
+            </div> -->
+            <!-- <div class="testimonial-slide swiper-slide">
+              <img src="./assets/img/la_POO.jpg" alt="" />
+              <h3>Conception de site web</h3>
+              <p>
+                Nous disposons de deux types de présentation : la présentation standard et la présentation portfolio. Quatre applications web conçu par nos soins peuvent être intégrées pour chaque type de présentation ce sont : le Quiz (question-réponse), les effets avec la souris sur les pages web, la barre de sélection ou d’appréciation et l’automatisation des touches du clavier. NB : la facturation est fonction de la présentation et des applications à pendre en compte pour la conception de votre site web. 
+              </p>
+            </div>
+          </div> -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- vodéos  -->
+    <section>
+    
+      
+              
+        <!-- <div>
+          <h3>Reproduction artificielle du poisson chat (silure)</h3>
+        </div>
+        <div>
+          <video
+            src="./reproduction artificielle des poissons.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div> -->
+        <!-- <div>
+          <h3>Système_aquaponie_hydroponie_hors_sol</h3>
+        </div>
+        <div>
+          <video
+            src="./Système_aquaponie_hydroponie_avec_mon_bassin_de_koi(360p).mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div> -->
+        <div>
+          <img src="./assets/img/mail-envelopes-couple.png" alt="" height="150" />
+        </div>
+        <div>
+          <a href="mailto:francfkuela@gmail.com"
+            >Cliquez ici pour m'envoyer un message</a
+          ><br />
+        </div>
+    </section>
+    <!-- contact section design -->
+    <!-- <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <section>
+      <form id="myForm">
+    <span class="form_col">Sex :</span>
+    <label><input name="sex" type="radio" value="H"/>Homme</label>
+    <label><input name="sex" type="radio" value="F"/>Femme</label>
+    <span class="tooltip">Vous devez sélectionnez votre
+    <label class="form_col" for="lastName">Nom :</label>
+    <input name="lastName" id="lastName" type="text" />
+    <span class="tooltip">Un nom ne peut pas faire moins de 2 caractères</span><br /><br />
+    <label class="form_col" for="firstName">Prénom :</label>
+    <input name="firstName" id="firstName" type="text" />
+    <span class="tooltip">Un prénom ne peut pas faire moins de 2 caractères</span><br /><br />
+    <label class="form_col" for="age">Âge :</label>
+    <input name="age" id="age" type="text" />
+    <span class="tooltip">L'âge doit être compris entre 5 et 140</span><br /><br />
+    <label class="form_col" for="login">Pseudo :</label> 
+    <input name="login" id="login" type="text" />
+    <span class="tooltip">Le pseudo ne peut pas faire moins de 4 caractères</span><br /><br />
+    <label class="form_col" for="pwd1">Mot de passe :</label>
+    <input name="pwd1" id="pwd1" type="password" />
+    <span class="tooltip">Le mot de passe ne doit pas faire moins de 6 caractères</span><br /><br />
+    <label class="form_col" for="pwd2">Mot de passe (confirmation) :</label>
+    <input name="pwd2" id="pwd2" type="password" />
+    <span class="tooltip">Le mot de passe de confirmation doit être identique à celui d'origine</span><br /><br />
+    <label class="form_col" for="country">Pays :</label>
+    <select name="country" id="country"> 
+    <option value="none">Sélectionnez votre pays de résidence</option>
+    <option value="bf">Burkina-Faso</option> 
+    <option value="us">Cote Ivoire</option> 
+    <option value="us">Mali</option> 
+    <option value="us">Togo</option> 
+    <option value="us">Niger</option> 
+    <option value="us">Ghana</option> 
+    <option value="us">Benin</option> 
+    <option value="us">Sénégal</option> 
+    <option value="fr">Autres</option></select>
+    <span class="tooltip">Vous devez sélectionner votre pays de résidence</span><br /><br />
+    <span class="form_col"></span>
+    <label><input name="news" type="checkbox" /> Je désire commander une écloserie.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire acheter un produit Agro Sylvo Pastoral.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire acheter le logiciel de gestion de stocks CADORA G.Stocks.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire concevoir un site web.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire un contrat d'assistance en gestion.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire une formation niveau avancé en Python.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire une formation niveau avancé en JavaScript.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire une formation niveau avancé en Access.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire une formation niveau avancé en Excel.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire une formation en pisciculture hors sol en circuit fermé.</label><br /><br />
+    <label><input name="news" type="checkbox" /> Je désire une formation en reproduction articielle de poissons hors sol.</label><br /><br />
+    <span class="form_col"></span>
+    <input type="submit" value="M'inscrire" /> 
+    <input type="reset" value="Réinitialiser le formulaire" />
+</form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; Avril 2023 by KISWENDSIDA ISMAEL KABORE tel +226 70 22 78 41 email:jvadconsultingroom@gmail.com | All Rights
+          Reserved.
+        </p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
